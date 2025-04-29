@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['100K', '10K', '1K', '20K', '2K', '50K', '5K']
+
+roboflow:
+  workspace: deeplearn-p4gr4
+  project: deteksi-uang-9obdk
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/deeplearn-p4gr4/deteksi-uang-9obdk/dataset/1
