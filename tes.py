@@ -2,11 +2,11 @@ from ultralytics import YOLO
 
 
 if __name__ == '__main__':
-    # Load the trained model (gunakan model yang sudah dilatih, misalnya best.pt)
-    model = YOLO("runs/train/exp_uang/weights/best.pt")  # Ganti dengan path ke model yang sudah dilatih
+    
+    model = YOLO("runs/train/exp_uang/weights/best.pt")  
 
     # Coba infer ke 1 gambar
-    results = model("tes3.jpg")  # Ganti dengan path ke gambar yang ingin diuji
+    results = model("tes3.jpg")  
 
     # Tampilkan hasil deteksi
     results[0].show()  
