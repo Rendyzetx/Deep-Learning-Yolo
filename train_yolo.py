@@ -21,6 +21,3 @@ if __name__ == '__main__':
 
     # evaluasi model
     metrics = model.val()
-
-    # Export model ke ONNX untuk mobile/deployment
-    model.export(format="onnx")
